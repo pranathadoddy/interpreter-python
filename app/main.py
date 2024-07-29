@@ -42,6 +42,8 @@ def main():
                 print("MINUS - null")
             elif c == "/":
                 print("SLASH / null")
+            elif c == ";":
+                print("SEMICOLON ; null")
          print("EOF  null")
     else:
          print("EOF  null") # Placeholder, remove this line when implementing the scanner
