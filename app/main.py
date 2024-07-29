@@ -24,8 +24,12 @@ def main():
          for c in file_contents:
             if c == "(":
                 print("LEFT_PAREN ( null")
-            if c == ")":
+            elif c == ")":
                 print("RIGHT_PAREN ) null")
+            elif c == "{":
+                print("LEFT_BRACE { null")
+            elif c == "}":
+                print("RIGHT_BRACE } null")
          print("EOF  null")
     else:
          print("EOF  null") # Placeholder, remove this line when implementing the scanner
